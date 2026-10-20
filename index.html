@@ -1,0 +1,325 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Privacidad · Between Stations</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Política de privacidad de Between Stations · Privacy policy · Política de privacidade">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;800&display=swap">
+<style>
+  /* Layout: una columna de lectura con cabecera de rótulo ferroviario; el mismo lenguaje visual del juego. */
+  :root {
+    --bg: #f3efe6;
+    --surface: #ffffff;
+    --ink: #1b2833;
+    --muted: #55646f;
+    --line: #d9d3c6;
+    --enamel: #1d4f91;
+    --enamel-edge: #e8edf3;
+    --signal: #f2b233;
+    --signal-ink: #2b2a26;
+    --chip: #e7eef5;
+    --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+    --font-body: "Barlow", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101a23; --surface: #1b2833; --ink: #eaf0f4; --muted: #a3b4c1; --line: #2e4252;
+      --enamel: #1d4f91; --enamel-edge: #e8edf3; --signal: #f2b233; --signal-ink: #2b2a26; --chip: #243442;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101a23; --surface: #1b2833; --ink: #eaf0f4; --muted: #a3b4c1; --line: #2e4252;
+    --enamel: #1d4f91; --enamel-edge: #e8edf3; --signal: #f2b233; --signal-ink: #2b2a26; --chip: #243442;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.6;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 28px 48px;
+  }
+  .page { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+
+  header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+  .plate { display: inline-flex; background: var(--enamel); border-radius: 10px; padding: 4px; }
+  .plate span {
+    border: 2px solid var(--enamel-edge); border-radius: 7px; padding: 2px 16px;
+    font-family: var(--font-display); font-weight: 800; font-size: 26px; letter-spacing: 3px; color: #ffffff;
+  }
+  .langs { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+  .langs button {
+    min-width: 52px; min-height: 44px; border: 0; border-radius: 9px; background: transparent; color: var(--muted);
+    font: 700 15px/1 var(--font-body); letter-spacing: 1px; cursor: pointer;
+  }
+  .langs button[aria-pressed="true"] { background: var(--signal); color: var(--signal-ink); }
+  .langs button:focus-visible { outline: 3px solid var(--enamel); outline-offset: 2px; }
+
+  h1 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(34px, 7vw, 48px); line-height: 1.05; text-wrap: balance; }
+  .meta { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
+
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .summary div { background: var(--chip); border-radius: 12px; padding: 12px 14px; font-weight: 600; font-size: 15px; line-height: 1.35; }
+  .summary b { display: block; font-family: var(--font-display); font-size: 21px; letter-spacing: .3px; }
+
+  article { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 8px 24px 24px; }
+  section { padding-top: 18px; }
+  section + section { border-top: 1px solid var(--line); margin-top: 18px; }
+  h2 { margin: 0 0 6px; font-family: var(--font-display); font-weight: 700; font-size: 24px; letter-spacing: .3px; text-wrap: balance; }
+  h2 small { color: var(--enamel); font-size: 18px; margin-right: 8px; }
+  :root[data-theme="dark"] h2 small { color: var(--signal); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) h2 small { color: var(--signal); } }
+  p, ul { margin: 0 0 10px; }
+  ul { padding-left: 22px; }
+  li + li { margin-top: 4px; }
+  a { color: var(--enamel); text-underline-offset: 3px; }
+  :root[data-theme="dark"] a { color: #7fb6ff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) a { color: #7fb6ff; } }
+
+  .contact { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 6px; }
+  .contact code {
+    font: 600 16px/1.3 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; background: var(--chip);
+    border-radius: 8px; padding: 10px 12px; user-select: all; word-break: break-all;
+  }
+  .contact button {
+    min-height: 44px; padding: 0 16px; border-radius: 10px; border: 2px solid var(--line); background: var(--surface);
+    color: var(--ink); font: 600 15px var(--font-body); cursor: pointer;
+  }
+  .contact button:focus-visible { outline: 3px solid var(--enamel); outline-offset: 2px; }
+
+  footer { color: var(--muted); font-size: 14px; text-align: center; }
+  @media (max-width: 480px) { article { padding: 4px 18px 20px; } body { font-size: 16px; } }
+</style>
+
+<div class="page">
+  <header>
+    <div class="plate"><span>BETWEEN STATIONS</span></div>
+    <div class="langs" role="group" aria-label="Idioma · Language · Idioma">
+      <button type="button" id="lang-es" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" id="lang-en" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" id="lang-pt" data-lang="pt" aria-pressed="false">PT</button>
+    </div>
+  </header>
+
+  <!-- ESPAÑOL -->
+  <main data-content="es" lang="es">
+    <div>
+      <h1>Política de privacidad</h1>
+      <p class="meta">Between Stations · Seraby Games · Vigente desde el 19 de octubre de 2026</p>
+    </div>
+    <div class="summary" style="margin-top:20px">
+      <div><b>Sin anuncios</b>No mostramos publicidad.</div>
+      <div><b>Sin cuentas</b>No necesitas registrarte.</div>
+      <div><b>Sin datos personales</b>No recopilamos nada sobre ti.</div>
+      <div><b>Sin conexión</b>Se juega sin internet.</div>
+    </div>
+    <article style="margin-top:20px">
+      <section>
+        <h2><small>1</small>Quiénes somos</h2>
+        <p>Between Stations es un juego de gestión ferroviaria para Android desarrollado por Seraby Games (paquete <code>com.appbetweenstationsgame.app</code>). Esta política explica qué información usa el juego y cómo la tratamos.</p>
+      </section>
+      <section>
+        <h2><small>2</small>Información que recopilamos</h2>
+        <p>Ninguna. No pedimos ni recibimos tu nombre, correo, ubicación, contactos, fotos, identificadores del dispositivo ni ningún otro dato personal. El juego no incluye herramientas de analítica, publicidad ni rastreo.</p>
+      </section>
+      <section>
+        <h2><small>3</small>Datos guardados en tu dispositivo</h2>
+        <p>Para que puedas continuar tu partida, el juego guarda en el almacenamiento interno de la app:</p>
+        <ul>
+          <li>Tu progreso: dinero, trenes, líneas, horarios, personal y los nombres que des a tu estado y a tus estaciones.</li>
+          <li>Tus preferencias, como el sonido de la interfaz.</li>
+        </ul>
+        <p>Esta información no sale de tu dispositivo: no la enviamos a nosotros ni a terceros. Se borra al desinstalar el juego o al borrar los datos de la app desde los ajustes de Android.</p>
+      </section>
+      <section>
+        <h2><small>4</small>Compra en Google Play</h2>
+        <p>Between Stations es una app de pago con un precio de 25 MXN o su equivalente en tu moneda (el precio final puede variar según el país y los impuestos). No hay compras dentro del juego. El pago lo procesa Google Play; nunca recibimos los datos de tu tarjeta ni de tu método de pago. Google solo nos comparte información de ventas, como el país y el estado del pedido, conforme a sus políticas. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">política de privacidad de Google</a>.</p>
+      </section>
+      <section>
+        <h2><small>5</small>Permisos</h2>
+        <p>El juego no solicita acceso a tu ubicación, cámara, micrófono, contactos, fotos ni archivos.</p>
+      </section>
+      <section>
+        <h2><small>6</small>Servicios de terceros</h2>
+        <p>Solo usamos Google Play para la descarga, el pago y las actualizaciones. El juego está hecho con Unity; sus servicios en línea (analíticas, anuncios y reportes de errores) están desactivados.</p>
+      </section>
+      <section>
+        <h2><small>7</small>Edad</h2>
+        <p>Between Stations está pensado para personas de 13 años en adelante. No está dirigido a menores de 13 años y no recopilamos datos de nadie, tampoco de menores.</p>
+      </section>
+      <section>
+        <h2><small>8</small>Eliminación de datos</h2>
+        <p>Como no guardamos información tuya en servidores, no hay nada que eliminar de nuestro lado. Para borrar tu partida, desinstala el juego o borra sus datos desde los ajustes de Android.</p>
+      </section>
+      <section>
+        <h2><small>9</small>Cambios a esta política</h2>
+        <p>Si el juego cambia la forma en que usa la información, actualizaremos esta página y la fecha de vigencia antes de publicar la nueva versión.</p>
+      </section>
+      <section>
+        <h2><small>10</small>Contacto</h2>
+        <p>Si tienes preguntas sobre esta política, escríbenos:</p>
+        <div class="contact"><code>serdevapps@gmail.com</code><button type="button" class="copy" data-done="Copiado">Copiar correo</button></div>
+      </section>
+    </article>
+  </main>
+
+  <!-- ENGLISH -->
+  <main data-content="en" lang="en" hidden>
+    <div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Between Stations · Seraby Games · Effective October 19, 2026</p>
+    </div>
+    <div class="summary" style="margin-top:20px">
+      <div><b>No ads</b>We never show advertising.</div>
+      <div><b>No accounts</b>No sign-up needed.</div>
+      <div><b>No personal data</b>We collect nothing about you.</div>
+      <div><b>Offline</b>Play without internet.</div>
+    </div>
+    <article style="margin-top:20px">
+      <section>
+        <h2><small>1</small>Who we are</h2>
+        <p>Between Stations is a railway management game for Android developed by Seraby Games (package <code>com.appbetweenstationsgame.app</code>). This policy explains what information the game uses and how we handle it.</p>
+      </section>
+      <section>
+        <h2><small>2</small>Information we collect</h2>
+        <p>None. We do not ask for or receive your name, email, location, contacts, photos, device identifiers or any other personal data. The game includes no analytics, advertising or tracking tools.</p>
+      </section>
+      <section>
+        <h2><small>3</small>Data stored on your device</h2>
+        <p>So you can continue your game, it saves the following in the app's internal storage:</p>
+        <ul>
+          <li>Your progress: money, trains, lines, timetables, staff and the names you give your state and stations.</li>
+          <li>Your preferences, such as interface sound.</li>
+        </ul>
+        <p>This information never leaves your device: we do not send it to ourselves or to third parties. It is deleted when you uninstall the game or clear the app's data in Android settings.</p>
+      </section>
+      <section>
+        <h2><small>4</small>Purchase on Google Play</h2>
+        <p>Between Stations is a paid app priced at MXN 25 or the equivalent in your currency (the final price may vary by country and taxes). There are no in-app purchases. Payment is processed by Google Play; we never receive your card or payment details. Google only shares sales information with us, such as country and order status, under its own policies. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+      </section>
+      <section>
+        <h2><small>5</small>Permissions</h2>
+        <p>The game does not request access to your location, camera, microphone, contacts, photos or files.</p>
+      </section>
+      <section>
+        <h2><small>6</small>Third-party services</h2>
+        <p>We only use Google Play for download, payment and updates. The game is built with Unity; its online services (analytics, ads and crash reporting) are turned off.</p>
+      </section>
+      <section>
+        <h2><small>7</small>Age</h2>
+        <p>Between Stations is intended for people aged 13 and older. It is not directed at children under 13, and we do not collect data from anyone, including children.</p>
+      </section>
+      <section>
+        <h2><small>8</small>Data deletion</h2>
+        <p>Since we do not keep any of your information on servers, there is nothing to delete on our side. To erase your game, uninstall it or clear its data in Android settings.</p>
+      </section>
+      <section>
+        <h2><small>9</small>Changes to this policy</h2>
+        <p>If the game changes how it uses information, we will update this page and its effective date before releasing the new version.</p>
+      </section>
+      <section>
+        <h2><small>10</small>Contact</h2>
+        <p>If you have questions about this policy, write to us:</p>
+        <div class="contact"><code>serdevapps@gmail.com</code><button type="button" class="copy" data-done="Copied">Copy email</button></div>
+      </section>
+    </article>
+  </main>
+
+  <!-- PORTUGUÊS -->
+  <main data-content="pt" lang="pt-BR" hidden>
+    <div>
+      <h1>Política de Privacidade</h1>
+      <p class="meta">Between Stations · Seraby Games · Em vigor desde 19 de outubro de 2026</p>
+    </div>
+    <div class="summary" style="margin-top:20px">
+      <div><b>Sem anúncios</b>Não exibimos publicidade.</div>
+      <div><b>Sem contas</b>Não é preciso se cadastrar.</div>
+      <div><b>Sem dados pessoais</b>Não coletamos nada sobre você.</div>
+      <div><b>Offline</b>Jogue sem internet.</div>
+    </div>
+    <article style="margin-top:20px">
+      <section>
+        <h2><small>1</small>Quem somos</h2>
+        <p>Between Stations é um jogo de gestão ferroviária para Android desenvolvido pela Seraby Games (pacote <code>com.appbetweenstationsgame.app</code>). Esta política explica quais informações o jogo usa e como as tratamos.</p>
+      </section>
+      <section>
+        <h2><small>2</small>Informações que coletamos</h2>
+        <p>Nenhuma. Não pedimos nem recebemos seu nome, e-mail, localização, contatos, fotos, identificadores do dispositivo ou qualquer outro dado pessoal. O jogo não inclui ferramentas de análise, publicidade ou rastreamento.</p>
+      </section>
+      <section>
+        <h2><small>3</small>Dados salvos no seu dispositivo</h2>
+        <p>Para que você possa continuar sua partida, o jogo salva no armazenamento interno do app:</p>
+        <ul>
+          <li>Seu progresso: dinheiro, trens, linhas, horários, equipe e os nomes que você der ao seu estado e às suas estações.</li>
+          <li>Suas preferências, como o som da interface.</li>
+        </ul>
+        <p>Essas informações não saem do seu dispositivo: não as enviamos para nós nem para terceiros. Elas são apagadas ao desinstalar o jogo ou limpar os dados do app nas configurações do Android.</p>
+      </section>
+      <section>
+        <h2><small>4</small>Compra no Google Play</h2>
+        <p>Between Stations é um app pago com preço de 25 MXN ou o equivalente na sua moeda (o preço final pode variar conforme o país e os impostos). Não há compras dentro do jogo. O pagamento é processado pelo Google Play; nunca recebemos os dados do seu cartão ou meio de pagamento. O Google compartilha conosco apenas informações de vendas, como país e status do pedido, de acordo com as próprias políticas. Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.</p>
+      </section>
+      <section>
+        <h2><small>5</small>Permissões</h2>
+        <p>O jogo não solicita acesso à sua localização, câmera, microfone, contatos, fotos ou arquivos.</p>
+      </section>
+      <section>
+        <h2><small>6</small>Serviços de terceiros</h2>
+        <p>Usamos apenas o Google Play para download, pagamento e atualizações. O jogo é feito com Unity; os serviços online da Unity (análises, anúncios e relatórios de erros) estão desativados.</p>
+      </section>
+      <section>
+        <h2><small>7</small>Idade</h2>
+        <p>Between Stations é destinado a pessoas a partir de 13 anos. Não é direcionado a menores de 13 anos, e não coletamos dados de ninguém, inclusive de menores.</p>
+      </section>
+      <section>
+        <h2><small>8</small>Exclusão de dados</h2>
+        <p>Como não guardamos suas informações em servidores, não há nada a excluir do nosso lado. Para apagar sua partida, desinstale o jogo ou limpe os dados dele nas configurações do Android.</p>
+      </section>
+      <section>
+        <h2><small>9</small>Alterações nesta política</h2>
+        <p>Se o jogo mudar a forma como usa as informações, atualizaremos esta página e a data de vigência antes de publicar a nova versão.</p>
+      </section>
+      <section>
+        <h2><small>10</small>Contato</h2>
+        <p>Se tiver dúvidas sobre esta política, escreva para:</p>
+        <div class="contact"><code>serdevapps@gmail.com</code><button type="button" class="copy" data-done="Copiado">Copiar e-mail</button></div>
+      </section>
+    </article>
+  </main>
+
+  <footer>© 2026 Seraby Games · Between Stations</footer>
+</div>
+
+<script>
+  (function () {
+    var langs = ["es", "en", "pt"];
+    function show(lang) {
+      if (langs.indexOf(lang) < 0) lang = "es";
+      document.querySelectorAll("main[data-content]").forEach(function (m) { m.hidden = m.getAttribute("data-content") !== lang; });
+      document.querySelectorAll(".langs button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === lang)); });
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : lang;
+      try { localStorage.setItem("bs-privacy-lang", lang); } catch (e) {}
+    }
+    var hash = (location.hash || "").replace("#", "");
+    var saved = null; try { saved = localStorage.getItem("bs-privacy-lang"); } catch (e) {}
+    var browser = ((navigator.language || "es").slice(0, 2)).toLowerCase();
+    show(langs.indexOf(hash) >= 0 ? hash : saved || (langs.indexOf(browser) >= 0 ? browser : "es"));
+    document.querySelectorAll(".langs button").forEach(function (b) { b.addEventListener("click", function () { show(b.getAttribute("data-lang")); }); });
+    document.querySelectorAll(".copy").forEach(function (btn) {
+      var label = btn.textContent;
+      btn.addEventListener("click", function () {
+        var code = btn.parentElement.querySelector("code");
+        function done() { btn.textContent = btn.getAttribute("data-done"); setTimeout(function () { btn.textContent = label; }, 1800); }
+        function select() { var r = document.createRange(); r.selectNodeContents(code); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(code.textContent).then(done, select); else select();
+      });
+    });
+  })();
+</script>
+
+</body></html>
